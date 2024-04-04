@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookworm.in - Search for your next adventure</title>
+    <title>Bookworm.in - Search</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .categories {
+            margin-top: 20px;
+        }
+        .categories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .categories ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,7 +27,7 @@
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="#">Search</a></li>
-                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="book.html">Books</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -27,6 +40,15 @@
                 <input type="text" name="search" placeholder="Search by title, author, or genre">
                 <button type="submit">Search</button>
             </form>
+        </section>
+        <section class="categories">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Fiction</a></li>
+                <li><a href="#">Mystery</a></li>
+                <li><a href="#">Fantasy</a></li>
+                <!-- aur categories add krne ke liye -->
+            </ul>
         </section>
         <section class="search-results">
             <h3>Search Results</h3>
